@@ -10,8 +10,8 @@
     --background-secondary-color: #F5F5F5;
     --background-tertiary-color: #000000;
 
-    --button-primary-color: #BF0101;
-    --hover-secondary-color: #B81515;
+    --button-primary-color: #B81515;
+    --hover-secondary-color: #8F0101;
 
     --text-primary-color: #222222;
     --text-secondary-color: #FFFFFF;
@@ -43,13 +43,32 @@ body{
 .section-title hr {
     width: 180px;
     height: 4px;
-    background-color: var(--hover-secondary-color);
+    background-color: var(--button-primary-color);
     border: none;
     margin: 16px auto 32px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 16px;
+    width: 280px;
+    height: 64px;
+    background-color: var(--button-primary-color);
+    color: var(--text-secondary-color);
+    font-weight: var(--title-weight);
+    font-size: 20px;
+    line-height: 64px;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
     .section-title h2 {
         font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .button:hover {
+        background-color: var(--hover-secondary-color);
     }
 }
