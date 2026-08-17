@@ -30,3 +30,16 @@
     display: inline-block;
     margin: 24px auto 24px auto;
 }
+
+@media screen and (min-width: 1024px) {
+    .card {
+        width: 588px;
+        height: 308px;
+    }
+    .card section {
+        font-size: 48px;
+    }
+    .card section span {
+        font-size: 40px;
+    }
+}
