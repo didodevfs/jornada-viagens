@@ -20,9 +20,12 @@
 .card section {
     display: block;
     position: static;
+    margin-top: 8px;
+}
+
+.card section h3 {
     font-size: 40px;
     font-weight: var(--title-weight);
-    margin-top: 8px;
 }
 
 .card section span {
