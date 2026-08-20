@@ -1,0 +1,15 @@
+.categories-cards { /* IGUAL OS OFFERS.CARDS, COGITAR ALTERAR PARA O GLOBAL */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.category {
+    width: 312px;
+    height: 220px;
+    background-color: var(--categories-bg-color);
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+}
