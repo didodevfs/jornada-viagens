@@ -43,22 +43,22 @@
 }
 
 .card.japao {
-    background: url(../img/bg-card-japao.png);
+    background: url(../img/bg-cards/bg-card-japao.png);
     background-size: cover;
 }
 
 .card.san-andreas {
-    background: url(../img/bg-card-san-andreas.png);
+    background: url(../img/bg-cards/bg-card-san-andreas.png);
     background-size: cover;
 }
 
 .card.paraiba {
-    background: url(../img/bg-card-san-andreas.png);
+    background: url(../img/bg-cards/bg-card-san-andreas.png);
     background-size: cover;
 }
 
 .card.manaus {
-    background: url(../img/bg-card-manaus.png);
+    background: url(../img/bg-cards/bg-card-manaus.png);
     background-size: cover;
 }
 
