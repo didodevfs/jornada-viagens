@@ -6,10 +6,23 @@
 }
 
 .category {
+    display: flex;
     width: 312px;
     height: 220px;
     background-color: var(--categories-bg-color);
-    text-align: center;
     justify-content: center;
+    align-items: center;
     border-radius: 8px;
+}
+
+.category-link {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    text-decoration: none;
+    align-items: center;
+    gap: 24px;
+}
+
+.category-link img {
+    object-fit: none;
 }
