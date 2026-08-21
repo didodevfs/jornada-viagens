@@ -21,6 +21,10 @@
     text-decoration: none;
     align-items: center;
     gap: 24px;
+    text-align: center;
+    font-size: 28px;
+    color: var(--text-primary-color);
+    font-weight: var(--title-weight);
 }
 
 .category-link img {
