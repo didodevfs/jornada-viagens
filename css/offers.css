@@ -68,7 +68,7 @@
 
 @media screen and (min-width: 700px) {
     .offers-cards {
-        display: flex;
+        /* display: flex; */
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
