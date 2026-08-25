@@ -1,0 +1,55 @@
+.categories-cards { /* IGUAL OS OFFERS.CARDS, COGITAR ALTERAR PARA O GLOBAL */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.category-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 312px;
+    height: 220px;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: var(--categories-bg-color);
+}
+
+.category-link h4 {
+    width: 249.25px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: var(--title-weight);
+    color: var(--text-primary-color);
+}
+
+.icon-box {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+@media screen and (min-width: 700px) {
+    .categories-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .category-link {
+        width: 420px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .category-link {
+        width: 281.25px;
+    }
+}

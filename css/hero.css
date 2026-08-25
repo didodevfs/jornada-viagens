@@ -1,12 +1,12 @@
 .hero-img {
     height: 400px;
     width: 100%;
-    background: url(../img/hero-mobile.jpg) no-repeat;
+    background: url(../img/hero/hero-mobile.jpg) no-repeat;
     background-size: cover;
 }
 
 .hero h2 {
-    padding: 88px 24px;
+    padding: 88px 24px 0;
     margin: 0px;
     font-weight: var(--text-weight);
     font-size: 20px;
@@ -17,7 +17,7 @@
 @media screen and (min-width: 700px) {
     .hero-img {
         height: 620px;
-        background: url(../img/hero-tablet.jpg) no-repeat;
+        background: url(../img/hero/hero-tablet.jpg) no-repeat;
         background-size: cover;
     }
     .hero h2 {
@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 1280px) {
     .hero-img {
-        background: url(../img/hero-desktop.jpg) no-repeat;
+        background: url(../img/hero/hero-desktop.jpg) no-repeat;
         background-size: cover;
     }
     .hero h2 {
