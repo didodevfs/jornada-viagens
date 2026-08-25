@@ -37,6 +37,7 @@ body{
 
 .section-title {
     margin-top: 88px;
+    margin-inline: 24px;
 }
 
 .section-title h2 {
