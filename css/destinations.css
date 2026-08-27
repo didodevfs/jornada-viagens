@@ -21,10 +21,20 @@
 
 .destinations-articles h4 {
     margin: 24px 0;
+    font-size: 28px;
+    font-weight: var(--title-weight);
+    color: var(--text-primary-color);
+}
+
+.destinations-articles p {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: var(--text-weight);
+    color: var(--text-primary-color);
 }
 
 .destinations-articles a {
     width: 312px;
     text-align: center;
-    margin: 24px 0;
+    margin: 24px 0 40px;
 }
