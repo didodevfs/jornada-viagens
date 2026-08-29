@@ -1,0 +1,51 @@
+/* .text igual ao destinations.css | Unificar no global.css */
+/* Fazer uma revisão geral para não precisar ficar definindo tantas margens diferentes e apenas usar um gap no container com display flex  */
+
+.payments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    width: 312px;
+}
+
+.text h4 {
+    margin-bottom: 24px;
+    font-size: 28px;
+    font-weight: var(--title-weight);
+    color: var(--text-primary-color);
+}
+
+.text p {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: var(--text-weight);
+    color: var(--text-primary-color);
+}
+
+.imgs {
+    width: 312px;
+    height: 460px;
+    display: grid;
+    grid-template-columns: 144px 144px;
+    grid-template-rows: 254px 182px;
+    gap: 24px;
+    margin: 24px;
+}
+.vertical-img1 {
+    background: url(../img/payments/vertical1-mobile.png);
+    background-size: cover;
+}
+
+.vertical-img2 {
+    background: url(../img/payments/vertical2-mobile.png);
+    background-size: cover;
+}
+
+.horizontal-img {
+    background: url(../img/payments/horizontal-mobile.png);
+    background-size: cover;
+    grid-column: span 2;
+}
