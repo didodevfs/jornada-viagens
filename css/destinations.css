@@ -42,6 +42,10 @@
     margin: 24px 0 40px;
 }
 
+.destinations-articles .osaka .button {
+    margin: 24px 0 0;
+}
+
 @media screen and (min-width: 700px) {
     .destination-img {
         width: 648px;
