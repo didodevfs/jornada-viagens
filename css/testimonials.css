@@ -1,0 +1,15 @@
+.testimonial {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial section {
+    width: 312px;
+    height: 140px;
+    line-height: 28px;
+    align-self: center;
+}
+
+.testimonial footer {
+    display: grid;
+}
